@@ -3,7 +3,7 @@ import { jsx, Styled } from "theme-ui";
 import useSiteMetadata from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-site-metadata";
 
 const Footer = () => {
-  const { siteTitle } = useSiteMetadata();
+  const { author } = useSiteMetadata();
 
   return (
     <footer
@@ -21,14 +21,14 @@ const Footer = () => {
       }}
     >
       <div>
-        &copy; {new Date().getFullYear()} CC-BY-SA by {siteTitle}.
+        &copy; {new Date().getFullYear()} CC-BY-SA by {author}.
       </div>
       <div>
         <Styled.a
-          aria-label="Link to the theme author's website"
+          aria-label="Link to GeneroUS Labs website"
           href="https://www.generouslabs.org/"
         >
-          GeneroUS Labs
+          {author}
         </Styled.a>
       </div>
     </footer>
