@@ -35,7 +35,8 @@ class Header extends React.Component {
   }
   headerColorChange() {
     const { classes, color, changeColorOnScroll } = this.props;
-    const windowsScrollTop = typeof window !== 'undefined' && window.pageYOffset;
+    const windowsScrollTop =
+      typeof window !== "undefined" && window.pageYOffset;
     if (windowsScrollTop > changeColorOnScroll.height) {
       document.body
         .getElementsByTagName("header")[0]
@@ -54,7 +55,8 @@ class Header extends React.Component {
   }
   componentWillUnmount() {
     if (this.props.changeColorOnScroll) {
-      typeof window !== 'undefined' && window.removeEventListener("scroll", this.headerColorChange);
+      typeof window !== "undefined" &&
+        window.removeEventListener("scroll", this.headerColorChange);
     }
   }
   render() {

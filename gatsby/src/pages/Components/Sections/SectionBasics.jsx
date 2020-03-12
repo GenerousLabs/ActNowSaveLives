@@ -14,7 +14,7 @@ import People from "@material-ui/icons/People";
 import Check from "@material-ui/icons/Check";
 import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
 // React icons
-import { FaUsers } from 'react-icons/fa';
+import { FaUsers } from "react-icons/fa";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -210,7 +210,7 @@ class SectionBasics extends React.Component {
                   inputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <FaUsers/>
+                        <FaUsers />
                       </InputAdornment>
                     )
                   }}

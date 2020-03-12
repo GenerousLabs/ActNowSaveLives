@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -60,21 +60,21 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaTwitter/>
+                    <FaTwitter />
                   </Button>
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaInstagram/>
+                    <FaInstagram />
                   </Button>
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaFacebook/>
+                    <FaFacebook />
                   </Button>
                 </CardFooter>
               </Card>
@@ -103,14 +103,14 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaTwitter/>
+                    <FaTwitter />
                   </Button>
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaLinkedin/>
+                    <FaLinkedin />
                   </Button>
                 </CardFooter>
               </Card>
@@ -139,21 +139,21 @@ class TeamSection extends React.Component {
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaTwitter/>
+                    <FaTwitter />
                   </Button>
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaInstagram/>
+                    <FaInstagram />
                   </Button>
                   <Button
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaFacebook/>
+                    <FaFacebook />
                   </Button>
                 </CardFooter>
               </Card>

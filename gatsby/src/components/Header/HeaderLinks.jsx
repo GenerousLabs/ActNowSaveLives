@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { Apps, CloudDownload } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -62,7 +62,11 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          placement={
+            typeof window !== "undefined" && window.innerWidth > 959
+              ? "top"
+              : "left"
+          }
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
@@ -71,7 +75,7 @@ function HeaderLinks({ ...props }) {
             color="transparent"
             className={classes.navLink}
           >
-            <FaTwitter/>
+            <FaTwitter />
           </Button>
         </Tooltip>
       </ListItem>
@@ -79,7 +83,11 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          placement={
+            typeof window !== "undefined" && window.innerWidth > 959
+              ? "top"
+              : "left"
+          }
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
@@ -88,7 +96,7 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             className={classes.navLink}
           >
-            <FaFacebook/>
+            <FaFacebook />
           </Button>
         </Tooltip>
       </ListItem>
@@ -96,7 +104,11 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-tooltip"
           title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          placement={
+            typeof window !== "undefined" && window.innerWidth > 959
+              ? "top"
+              : "left"
+          }
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
@@ -105,7 +117,7 @@ function HeaderLinks({ ...props }) {
             target="_blank"
             className={classes.navLink}
           >
-            <FaInstagram/>
+            <FaInstagram />
           </Button>
         </Tooltip>
       </ListItem>

@@ -7,7 +7,7 @@ import Email from "@material-ui/icons/Email";
 import People from "@material-ui/icons/People";
 import LockOutlined from "@material-ui/icons/LockOutlined";
 // React icons
-import {FaFacebook, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaGooglePlusG } from "react-icons/fa";
 // core components
 import Header from "components/Header/Header.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -76,7 +76,7 @@ class LoginPage extends React.Component {
                           color="transparent"
                           onClick={e => e.preventDefault()}
                         >
-                          <FaTwitter/>
+                          <FaTwitter />
                         </Button>
                         <Button
                           justIcon
@@ -85,7 +85,7 @@ class LoginPage extends React.Component {
                           color="transparent"
                           onClick={e => e.preventDefault()}
                         >
-                          <FaFacebook/>
+                          <FaFacebook />
                         </Button>
                         <Button
                           justIcon
@@ -94,7 +94,7 @@ class LoginPage extends React.Component {
                           color="transparent"
                           onClick={e => e.preventDefault()}
                         >
-                          <FaGooglePlusG/>
+                          <FaGooglePlusG />
                         </Button>
                       </div>
                     </CardHeader>
@@ -140,7 +140,7 @@ class LoginPage extends React.Component {
                           type: "password",
                           endAdornment: (
                             <InputAdornment position="end">
-                              <LockOutlined/>
+                              <LockOutlined />
                             </InputAdornment>
                           )
                         }}

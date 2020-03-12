@@ -12,7 +12,7 @@ import Face from "@material-ui/icons/Face";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import Explore from "@material-ui/icons/Explore";
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -379,8 +379,7 @@ class SectionNavbars extends React.Component {
                         classes.navLink + " " + classes.socialIconsButton
                       }
                     >
-                      <FaTwitter className={classes.marginRight5}/>{" "}
-                      Twitter
+                      <FaTwitter className={classes.marginRight5} /> Twitter
                     </Button>
                   </ListItem>
                   <ListItem className={classes.listItem}>
@@ -390,8 +389,7 @@ class SectionNavbars extends React.Component {
                         classes.navLink + " " + classes.socialIconsButton
                       }
                     >
-                      <FaFacebook className={classes.marginRight5}/>{" "}
-                      Facebook
+                      <FaFacebook className={classes.marginRight5} /> Facebook
                     </Button>
                   </ListItem>
                   <ListItem className={classes.listItem}>
@@ -401,8 +399,7 @@ class SectionNavbars extends React.Component {
                         classes.navLink + " " + classes.socialIconsButton
                       }
                     >
-                      <FaInstagram className={classes.marginRight5}/>{" "}
-                      Instagram
+                      <FaInstagram className={classes.marginRight5} /> Instagram
                     </Button>
                   </ListItem>
                 </List>

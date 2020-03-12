@@ -7,7 +7,7 @@ import Icon from "@material-ui/core/Icon";
 import People from "@material-ui/icons/People";
 import Email from "@material-ui/icons/Email";
 // React icons
-import { FaTwitter, FaFacebook, FaGooglePlusG } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaGooglePlusG } from "react-icons/fa";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -40,7 +40,7 @@ class SectionLogin extends React.Component {
                         color="transparent"
                         onClick={e => e.preventDefault()}
                       >
-                        <FaTwitter/>
+                        <FaTwitter />
                       </Button>
                       <Button
                         justIcon
@@ -49,7 +49,7 @@ class SectionLogin extends React.Component {
                         color="transparent"
                         onClick={e => e.preventDefault()}
                       >
-                        <FaFacebook/>
+                        <FaFacebook />
                       </Button>
                       <Button
                         justIcon
@@ -58,7 +58,7 @@ class SectionLogin extends React.Component {
                         color="transparent"
                         onClick={e => e.preventDefault()}
                       >
-                        <FaGooglePlusG/>
+                        <FaGooglePlusG />
                       </Button>
                     </div>
                   </CardHeader>

@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaPlay } from 'react-icons/fa';
+import { FaPlay } from "react-icons/fa";
 
 // core components
 import Header from "components/Header/Header.jsx";
@@ -63,7 +63,7 @@ class LandingPage extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaPlay/>
+                  <FaPlay />
                   Watch video
                 </Button>
               </GridItem>

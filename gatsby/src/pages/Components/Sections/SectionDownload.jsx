@@ -8,7 +8,12 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 // React icons
-import { FaTwitter, FaFacebookSquare, FaGooglePlusG, FaGithub } from 'react-icons/fa';
+import {
+  FaTwitter,
+  FaFacebookSquare,
+  FaGooglePlusG,
+  FaGithub
+} from "react-icons/fa";
 // core components
 import downloadStyle from "assets/jss/material-kit-react/views/componentsSections/downloadStyle.jsx";
 
@@ -89,18 +94,17 @@ class SectionDownload extends React.Component {
               <h3>Thank you for supporting us!</h3>
             </GridContainer>
             <Button color="twitter">
-              <FaTwitter/> Tweet
+              <FaTwitter /> Tweet
             </Button>
             <Button color="facebook">
-              <FaFacebookSquare/>{" "}
-              Share
+              <FaFacebookSquare /> Share
             </Button>
             <Button color="google">
-              <FaGooglePlusG/>
+              <FaGooglePlusG />
               Share
             </Button>
             <Button color="github">
-              <FaGithub/> Star
+              <FaGithub /> Star
             </Button>
           </div>
         </div>
