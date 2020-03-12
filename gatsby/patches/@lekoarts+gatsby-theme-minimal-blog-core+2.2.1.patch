@@ -1,0 +1,29 @@
+diff --git a/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/gatsby-node.js b/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/gatsby-node.js
+index 8add69a..d23db7b 100755
+--- a/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/gatsby-node.js
++++ b/node_modules/@lekoarts/gatsby-theme-minimal-blog-core/gatsby-node.js
+@@ -261,7 +261,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
+ }
+ 
+ // These template are only data-fetching wrappers that import components
+-const homepageTemplate = require.resolve(`./src/templates/homepage-query.tsx`)
++// const homepageTemplate = require.resolve(`./src/templates/homepage-query.tsx`)
+ const blogTemplate = require.resolve(`./src/templates/blog-query.tsx`)
+ const postTemplate = require.resolve(`./src/templates/post-query.tsx`)
+ const pageTemplate = require.resolve(`./src/templates/page-query.tsx`)
+@@ -273,6 +273,7 @@ exports.createPages = async ({ actions, graphql, reporter }, themeOptions) => {
+ 
+   const { basePath, blogPath, tagsPath, formatString } = withDefaults(themeOptions)
+ 
++  /* disable homepage
+   createPage({
+     path: basePath,
+     component: homepageTemplate,
+@@ -280,6 +281,7 @@ exports.createPages = async ({ actions, graphql, reporter }, themeOptions) => {
+       formatString,
+     },
+   })
++  */
+ 
+   createPage({
+     path: `/${basePath}/${blogPath}`.replace(/\/\/+/g, `/`),
